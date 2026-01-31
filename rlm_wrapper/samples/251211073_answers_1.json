@@ -1,0 +1,32 @@
+[
+  {
+    "question_id": 1,
+    "answer": "The MountainSeed File ID associated with this appraisal report is 251211073. This is shown in the header information on the first page of the report under \"File # 251211073\" [Page 1] and is also referenced in the MountainSeed request form documentation [Page 96].",
+    "transcription": "251211073",
+    "traffic_light_rating": null
+  },
+  {
+    "question_id": 2,
+    "answer": "Yes. The client is identified as Oregon State Credit Union - Corvallis. This is clearly stated on the first page of the appraisal report under \"PREPARED FOR: To Whom It May Concern OREGON STATE CREDIT UNION - CORVALLIS\" with their address listed as \"4800 SW Research Way, Corvallis, Oregon 97333\" [Page 1]. This is also confirmed in the appraisal information section where it states \"Jackson Group NW, Inc. has been retained by Oregon State Credit Union - Corvallis, which, is the client and intended user(s) of this appraisal\" [Page 7].",
+    "transcription": "Yes",
+    "traffic_light_rating": null
+  },
+  {
+    "question_id": 3,
+    "answer": "The borrower or entity associated with this transaction is Cambridge-Trinity, LLC. This is identified in the MountainSeed request form where it states \"Borrower: Cambridge Trinity LLC\" [Page 96]. The entity is also referenced throughout the document as the current owner of the subject property, with ownership dating back to 2005 [Page 10].",
+    "transcription": "Cambridge-Trinity, LLC",
+    "traffic_light_rating": null
+  },
+  {
+    "question_id": 4,
+    "answer": "The loan number for this transaction is 90783. This is clearly identified on the first page of the appraisal report under \"Loan # 90783\" [Page 1] and is also referenced in the MountainSeed request form documentation [Page 96].",
+    "transcription": "90783",
+    "traffic_light_rating": null
+  },
+  {
+    "question_id": 63,
+    "answer": "The review client for this appraisal is Oregon State Credit Union - Corvallis. This is the same entity identified as the primary client throughout the document. The appraisal was prepared for \"To Whom It May Concern OREGON STATE CREDIT UNION - CORVALLIS\" [Page 1] and the client information section confirms \"Jackson Group NW, Inc. has been retained by Oregon State Credit Union - Corvallis, which, is the client and intended user(s) of this appraisal\" [Page 7].",
+    "transcription": "Oregon State Credit Union - Corvallis",
+    "traffic_light_rating": null
+  }
+]

@@ -131,7 +131,7 @@ def load_questions_from_csv(
                 use_llm = True
                 if use_llm_column and use_llm_column in row:
                     use_llm_val = row[use_llm_column].strip().lower()
-                    use_llm = use_llm_val in ['true', '1', 'yes', 'y']
+                    use_llm = use_llm_val in ['true', '1', 'yes', 'y', 't']  # 't' for PostgreSQL boolean
 
                 questions.append(QuestionData(
                     id=q_id,

@@ -1,0 +1,106 @@
+id,text,category_id,category_name,use_llm
+1,What is the MountainSeed File ID associated with this appraisal report?,1,1. Transaction Details,t
+2,Who is the client for this appraisal?,1,1. Transaction Details,t
+3,What is the borrower or entity associated with this transaction?,1,1. Transaction Details,t
+4,What is the loan number for this transaction?,1,1. Transaction Details,t
+63,Who is the review client for this appraisal?,1,1. Transaction Details,t
+5,What is the property name of the subject property being appraised?,2,2. Property Information,t
+6,What is the property address (street number and street name) of the subject property being appraised?,2,2. Property Information,t
+7,What is the address line 2 (if available) of the subject property being appraised?,2,2. Property Information,t
+8,What is the city where the subject property being appraised is located?,2,2. Property Information,t
+9,What is the county where the subject property being appraised is located?,2,2. Property Information,t
+10,What is the state where the subject property being appraised is located?,2,2. Property Information,t
+11,What is the zip code of the subject property being appraised?,2,2. Property Information,t
+12,Who is the primary appraiser for this report?,3,3. Appraisal Information,t
+13,What is the appraiser's license number?,3,3. Appraisal Information,t
+14,What is the name of the appraisal firm that prepared this report?,3,3. Appraisal Information,t
+15,What type of appraisal report was conducted?,3,3. Appraisal Information,t
+16,"What is the date of the appraisal report? Respond with only the date in this format: March 21, 2024 and give me a reference on what page number you retrieve the answer",3,3. Appraisal Information,t
+64,What is the date of the appraisal report? Provide the date and page reference where this information was found.,3,3. Appraisal Information,t
+17,What is the purpose of the review?,4,4. Review Information,f
+18,Who is the intended user of the review report?,4,4. Review Information,f
+19,What is the intended use of the review report?,4,4. Review Information,f
+20,What is the date of the review report?,4,4. Review Information,f
+21,Who is the reviewer?,4,4. Review Information,f
+163,Value Conclusion(s) in the Report Under Review,11,"5. Value Conclusion(s) in the Report Under Review (2-2(a)(v), 2-2(a)(vi), 2-2(a)(vii))",t
+69,"Identify and list any extraordinary assumptions stated in the appraisal report. If none are noted, confirm explicitly that there are no extraordinary assumptions.",12,6. Appraisal Report Extraordinary Assumptions and/or Hypothetical Conditions (2-2(a)(xiii)),t
+70,"Identify and list any hypothetical conditions stated in the appraisal report. If none are noted, confirm explicitly that there are no hypothetical conditions.",12,6. Appraisal Report Extraordinary Assumptions and/or Hypothetical Conditions (2-2(a)(xiii)),t
+72,"Are there any negative property risk factors including any notable physical, functional, or external obsolescence? Provide details if yes.",13,8. Risk Assessment,t
+73,"Are there any negative market risk factors including declining values, oversupply, or extended marketing times? Provide details if yes.",13,8. Risk Assessment,t
+74,"Provide comments or observations regarding the overall risk assessment. Your response must incorporate a SWOT analysis format (Strengths, Weaknesses, Opportunities, and Threats). Specifically, address the following:
+
+- Are there any negative property risk factors, including notable physical, functional, or external obsolescence? If yes, provide details.
+- Are there any negative market risk factors, such as declining values, oversupply, or extended marketing times? If yes, provide details.
+
+Ensure the comments highlight both internal (property-specific) and external (market-related) risks, framed within the SWOT structure.",13,8. Risk Assessment,t
+76,Are there any deferred maintenance issues or structural concerns mentioned?,13,8. Risk Assessment,t
+164,"Sales Comparison Approach - What does the appraisal report state about the Sales Comparison Approach (e.g., comparables, adjustments, and final conclusion), and as an expert reviewer, what are your findings, opinions, and conclusions about the adequacy, support, and credibility of this approach?",14,"9. Reviewer Findings, Opinions and Conclusions – Appraisal Report Compliance with (2-2(a)(x))",t
+165,"Income Approach - What does the appraisal report state about the Income Approach (e.g., assumptions, inputs, capitalization), and as an expert reviewer, what are your findings, opinions, and conclusions regarding the support for inputs and credibility of the conclusion?",14,"9. Reviewer Findings, Opinions and Conclusions – Appraisal Report Compliance with (2-2(a)(x))",t
+166,"Cost Approach - What does the appraisal report state about the Cost Approach (land value, replacement cost, depreciation), and as an expert reviewer, what are your findings, opinions, and conclusions about its reliability and support? Cite pages. If the Cost Approach is not developed, explain why and evaluate whether that omission is reasonable.",14,"9. Reviewer Findings, Opinions and Conclusions – Appraisal Report Compliance with (2-2(a)(x))",t
+167,"Reconciliation - How does the appraisal report reconcile the approaches (Sales, Income, Cost) to form the final opinion of value? As an expert reviewer, do you find the weighting of approaches credible and consistent with the data? Cite pages.",14,"9. Reviewer Findings, Opinions and Conclusions – Appraisal Report Compliance with (2-2(a)(x))",t
+168,"Overall Credibility - Considering the appraisal as a whole (Sales, Income, Cost, Reconciliation, assumptions, certifications), what is your expert reviewer conclusion on the overall credibility of the appraisal report? Provide supporting evidence and page citations.",14,"9. Reviewer Findings, Opinions and Conclusions – Appraisal Report Compliance with (2-2(a)(x))",t
+169,"Revision Requests - ""What revision requests, if any, should the AI reviewer note (e.g., missing data, unsupported assumptions, inconsistencies)? If none are indicated in the report, state 'No indications found' and cite the sections/pages reviewed.""",14,"9. Reviewer Findings, Opinions and Conclusions – Appraisal Report Compliance with (2-2(a)(x))",t
+170,"Checklist 'No' Answers - ""Does the appraisal review checklist (if present in the provided context) contain any items that would be answered 'No'? If yes, summarize deficiencies with page citations. If the checklist is absent or provides no such items, state 'No indications found' and cite the sections/pages reviewed.""",14,"9. Reviewer Findings, Opinions and Conclusions – Appraisal Report Compliance with (2-2(a)(x))",t
+171,"Dispute Requests - ""Were any dispute/appeal/rebuttal requests received or documented in the materials provided? If yes, summarize the nature and resolution with page citations. If none are indicated, state 'No indications found' and cite the sections/pages reviewed.""",14,"9. Reviewer Findings, Opinions and Conclusions – Appraisal Report Compliance with (2-2(a)(x))",t
+172,"Revisions to the Original Appraisal - ""Were any revisions made to the original appraisal (e.g., reissued version, addendum updates, corrected exhibits)? If yes, describe the changes and their impact with page citations. If none are indicated, state 'No indications found' and cite the sections/pages reviewed.""",14,"9. Reviewer Findings, Opinions and Conclusions – Appraisal Report Compliance with (2-2(a)(x))",t
+86,Are facts and statistics analyzed in relation to the subject property and specific assignment?,15,"10. Regional, Neighborhood, and Market Analysis",t
+87,"Is the subject location adequately analyzed regarding linkages, land uses, and the direction and rate of neighborhood and city growth?",15,"10. Regional, Neighborhood, and Market Analysis",t
+88,Are the subject's market and submarket identified with historical market trends provided and supply/demand discussed at an appropriate level of detail?,15,"10. Regional, Neighborhood, and Market Analysis",t
+89,"Is the information in the subject site section complete and relevant (size, zoning compliance, utilities, tax assessments, site conditions)?",16,11. Subject Site and Improvements,t
+90,"Are improvements adequately described with sufficient photographs, exhibits, and discussion of deferred maintenance and functional utility?",16,11. Subject Site and Improvements,t
+95,Does the appraisal report disclose an opinion of highest and best use with adequate support for the conclusion(s)?,17,12. Highest and Best Use,t
+97,"The opinion of site value is adequately supported and considered appropriate. If applicable, the excess or surplus land is adequately addressed.",18,13. Site Valuation,t
+137,"Are the analysis, opinions, and conclusions communicated in a non-misleading manner?",19,18. USPAP Compliance,t
+138,Does the report contain sufficient information to enable intended users to understand it properly?,19,18. USPAP Compliance,t
+139,Is the reporting option prominently stated?,19,18. USPAP Compliance,t
+140,Is the client identified?,19,18. USPAP Compliance,t
+141,Is the identity of any other intended user(s) stated by name or type?,19,18. USPAP Compliance,t
+142,Is the intended use stated?,19,18. USPAP Compliance,t
+143,Is the real estate appraised sufficiently identified?,19,18. USPAP Compliance,t
+144,"Is the type of value (e.g., Market Value) stated and the appropriate definition cited?",19,18. USPAP Compliance,t
+145,Is the scope of work appropriate for the assignment and sufficiently described?,19,18. USPAP Compliance,t
+146,Is the extent of any significant appraisal assistance summarized?,19,18. USPAP Compliance,t
+147,"Is the quality and quantity of data summarized, relevant, and appropriately analyzed?",19,18. USPAP Compliance,t
+148,Was the opinion of value developed using appropriate appraisal methods?,19,18. USPAP Compliance,t
+149,Is there sufficient information and analysis to enable the client and intended user(s) to understand the rationale for the opinions and conclusions?,19,18. USPAP Compliance,t
+150,"Does the report include a summary of the results of analyzing any subject sales within the three (3) years prior to the effective date of value, if applicable?",19,18. USPAP Compliance,t
+151,"Does the report include a summary of the results of analyzing any agreements of sale, options, and listings as of the effective date of the appraisal, if applicable?",19,18. USPAP Compliance,t
+152,Does the report include a statement reflecting the existing use as of the date of value and a summary of the support and rationale for the opinion of highest and best use?,19,18. USPAP Compliance,t
+153,"Does the report include a certification in accordance with Standard 2-3 and specifically address prior services of the signatories and who did, or did not, inspect the subject property?",19,18. USPAP Compliance,t
+154,Does the report include a reasonable statement and discussion of exposure time?,19,18. USPAP Compliance,t
+155,"USPAP Compliance Summary: Review the preceding 18 USPAP-related questions. The appraisal meets minimum USPAP requirements if all applicable standards are properly addressed (answered ""Yes"") and non-applicable items are appropriately identified as ""N/A"" with valid justification. Based on your professional judgment as a commercial appraisal expert, considering both the ""Yes"" responses and appropriately justified ""N/A"" responses, does this appraisal report meet the minimum USPAP requirements?",19,18. USPAP Compliance,t
+156,"In keeping with the definition of Market Value, which assumes a sale, is the owner-occupied space considered and valued ""as if available for sale or lease,"" if applicable?",20,19. FIRREA Compliance,t
+157,Does the report include a statement indicating conformance with USPAP and FIRREA?,20,19. FIRREA Compliance,t
+158,"Is a Market Value ""As Is"" included, representing the value of the property in its current physical condition, use, and zoning as of the appraisal's effective date?",20,19. FIRREA Compliance,t
+159,"Are Prospective Market Value opinions based on current and reasonably expected market conditions, if applicable?",20,19. FIRREA Compliance,t
+160,"Are allocations for real estate, personal property (FF&E), and intangible property provided and sufficiently supported, if applicable?",20,19. FIRREA Compliance,t
+161,"Does the report analyze and report appropriate deductions and discounts for proposed construction/renovation, partially leased buildings, non-market lease terms, and tract developments with unsold units, if applicable?",20,19. FIRREA Compliance,t
+162,"FIRREA Compliance Summary: Review the preceding 6 FIRREA-related questions. The appraisal meets FIRREA regulatory requirements if all applicable items are addressed appropriately (answered ""Yes"") and non-applicable items are properly identified as ""N/A"" with valid justification. Based on your professional judgment as a commercial appraisal expert, considering both the ""Yes"" responses and appropriately justified ""N/A"" responses, does this appraisal report meet FIRREA regulatory requirements?",20,19. FIRREA Compliance,t
+263,"Considering all content in this appraisal report—including text, tables, and any readable text within images or exhibits—what non-mathematical consistency, terminology, and logic issues are present, and what single overall traffic-light rating should be assigned to the appraisal's non-math reliability?",21,20. Expanded Appraisal Insights,t
+264,"Within this appraisal, what math-related issues (excluding the specific income multiples, cap rates, and return metrics listed in the instructions) are present?",21,20. Expanded Appraisal Insights,t
+265,"Metric: GIM – Gross Income Multiplier. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+266,"Metric: GRM – Gross Rent Multiplier. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+267,"Metric: EGIM – Effective Gross Income Multiplier. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+268,"Metric: NOI Multiplier – Price/NOI. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+269,"Metric: Cap Rate – Capitalization Rate. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+270,"Metric: GPM – Gross Profit Margin. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+271,"Metric: P/Rev – Price to Revenue (or Value/Revenue). Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+272,"Metric: EBITDA – Earnings Before Interest, Taxes, Depreciation, and Amortization. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+273,"Metric: P/EBITDA – Price to EBITDA or EV/EBITDA. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+274,"Metric: EBITDA Margin. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+275,"Metric: NOI Margin. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+276,"Metric: Cash-on-Cash Return (CoC). Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+277,"Metric: Yield on Cost (YoC). Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+278,"Metric: DSCR – Debt Service Coverage Ratio. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+279,"Metric: Debt Yield. Given the provided metric value and any available context, how should you apply the Prompt below to clearly explain and evaluate this metric?",21,20. Expanded Appraisal Insights,t
+136,"How was the business value or EBITDA multiplier determined and supported in the appraisal, and how reliable is that treatment overall?",21,20. Expanded Appraisal Insights,t
+91,What is the year of construction (YOC) and remaining economic life (REL) of the improvements?,21,20. Expanded Appraisal Insights,t
+262,"Does the appraisal include a Discounted Cash Flow (DCF) analysis, and, given the property type and valuation assignment, how appropriate, correct, reasonable, consistent, and well-supported is the DCF treatment or its absence?",21,20. Expanded Appraisal Insights,t
+280,"When reviewing this appraisal report, what are the findings for SBA Use Indicated, SBA as Intended User, Remaining Economic Life Present & Value, Remaining Economic Life vs 25 Years, and Approaches to Value?",21,20. Expanded Appraisal Insights,t
+71,"Are there any extraordinary assumptions or hypothetical conditions used in the review report itself? If yes, list them.",22,7. Review Report Extraordinary Assumptions and/or Hypothetical Conditions (4-2(f)),t
+98,"If the Cost Approach was developed, is it adequately supported with proper cost estimates, depreciation analysis, and entrepreneurial profit? If not developed, was the exclusion adequately explained?",23,14. Cost Approach,t
+99,"If the Sales Comparison Approach was developed, is it adequately supported with appropriate comparable data and analysis? If not developed, was the exclusion adequately explained?",24,15. Sales Approach,t
+100,"If the Income Approach was developed, is it adequately supported with appropriate comparable data and analysis? If not developed, was the exclusion adequately explained?",25,16. Income Approach,t
+101,"The conclusions are consistent with the preceding individual sections, and the strengths and weaknesses of each approach are discussed.",26,17. Reconciliation,t
+173,"The weighting of the final reconciliation is reasonable, given the relevance of each approach and the quantity and quality of the available data.",26,17. Reconciliation,t
+163,Value Conclusion(s) in the Report Under Review,27,5. Value Conclusions,t

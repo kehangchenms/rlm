@@ -35,8 +35,8 @@ cd /path/to/rlm
 ### Step 2: Create Environment (Conda)
 
 ```bash
-conda create -n rlm-wrapper python=3.12 -y
-conda activate rlm-wrapper
+conda create -n rlm_wrapper python=3.12 -y
+conda activate rlm_wrapper
 ```
 
 Or with venv:
@@ -319,7 +319,7 @@ The system supports 16 question categories:
 ## Project Structure
 
 ```
-rlm-wrapper/
+rlm_wrapper/
 ├── __init__.py                    # Package exports
 ├── appraisal_processor.py         # Main processor class
 ├── prompt_builder.py              # Builds category-specific prompts
@@ -376,8 +376,8 @@ question_id,answer,transcription,traffic_light_rating
 # Run all demos
 python -m rlm_wrapper.example_usage
 
-# Or from the rlm-wrapper directory
-cd rlm-wrapper
+# Or from the rlm_wrapper directory
+cd rlm_wrapper
 python example_usage.py
 ```
 

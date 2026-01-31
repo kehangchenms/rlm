@@ -42,7 +42,10 @@ class AnthropicClient(BaseLM):
         if system:
             kwargs["system"] = system
 
-        response = self.client.messages.create(**kwargs)
+        # Use streaming to handle long-running operations (required by Anthropic for >10 min)
+        with self.client.messages.stream(**kwargs) as stream:
+            response = stream.get_final_message()
+
         self._track_cost(response, model)
         return response.content[0].text
 
@@ -59,7 +62,10 @@ class AnthropicClient(BaseLM):
         if system:
             kwargs["system"] = system
 
-        response = await self.async_client.messages.create(**kwargs)
+        # Use streaming to handle long-running operations (required by Anthropic for >10 min)
+        async with self.async_client.messages.stream(**kwargs) as stream:
+            response = await stream.get_final_message()
+
         self._track_cost(response, model)
         return response.content[0].text
 

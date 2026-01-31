@@ -1,0 +1,566 @@
+[
+  {
+    "question_id": 1,
+    "answer": "The MountainSeed File ID associated with this appraisal report is 251211073 [Page 1][Page 96].",
+    "transcription": "251211073",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 2,
+    "answer": "The client for this appraisal is Oregon State Credit Union - Corvallis [Page 1][Page 2].",
+    "transcription": "Oregon State Credit Union - Corvallis",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 3,
+    "answer": "The borrower or entity associated with this transaction is Cambridge-Trinity, LLC [Page 96].",
+    "transcription": "Cambridge-Trinity, LLC",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 4,
+    "answer": "The loan number for this transaction is 90783 [Page 1][Page 96].",
+    "transcription": "90783",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 5,
+    "answer": "The property name of the subject property being appraised is Cambridge-Trinity Mixed-Use Buildings [Page 1][Page 4].",
+    "transcription": "Cambridge-Trinity Mixed-Use Buildings",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 6,
+    "answer": "The property address of the subject property being appraised is 1951-1967 W Burnside Street & 11 NW Trinity Place [Page 1]. The primary address appears to be 1963 W Burnside Street [Page 4].",
+    "transcription": "1951-1967 W Burnside Street & 11 NW Trinity Place",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 7,
+    "answer": "The address line 2 for the subject property is (aka 1963 W Burnside Street) [Page 1].",
+    "transcription": "(aka 1963 W Burnside Street)",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 8,
+    "answer": "The city where the subject property being appraised is located is Portland [Page 1][Page 4].",
+    "transcription": "Portland",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 9,
+    "answer": "The county where the subject property being appraised is located is Multnomah [Page 4][Page 7].",
+    "transcription": "Multnomah",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 10,
+    "answer": "The state where the subject property being appraised is located is Oregon [Page 1][Page 4].",
+    "transcription": "OR",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 11,
+    "answer": "The zip code of the subject property being appraised is 97209 [Page 1][Page 4].",
+    "transcription": "97209",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 12,
+    "answer": "The primary appraiser for this report is William E. Leavens [Page 1][Page 3][Page 85].",
+    "transcription": "William E. Leavens",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 13,
+    "answer": "The appraiser's license number is C000909 for Oregon Certified General Appraiser [Page 3][Page 85][Page 95].",
+    "transcription": "C000909",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 14,
+    "answer": "The name of the appraisal firm that prepared this report is Jackson Group NW Inc. [Page 1][Page 85].",
+    "transcription": "Jackson Group NW Inc.",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 15,
+    "answer": "Based on the content and format of the report, this is an Appraisal Report as it contains detailed descriptions, explanations, and discussions throughout multiple sections with comprehensive analysis and support [Page 2][Page 6][Page 96].",
+    "transcription": "Appraisal Report",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 16,
+    "answer": "January 29, 2026 [Page 2]",
+    "transcription": "January 29, 2026",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 63,
+    "answer": "The review client for this appraisal is Oregon State Credit Union - Corvallis [Page 1][Page 2].",
+    "transcription": "Oregon State Credit Union - Corvallis",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 64,
+    "answer": "The date of the appraisal report is January 29, 2026 [Page 2].",
+    "transcription": "January 29, 2026",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 69,
+    "answer": "Yes. The appraisal report identifies four extraordinary assumptions [Page 3][Page 14]: 1) A Preliminary Title Report was not provided, assuming the subject is free and clear of adverse easements and encroachments; 2) An Environmental Assessment Report was not provided, assuming the subject site is free of adverse environmental conditions; 3) A Geotechnical Report was not provided, assuming stable soils that support development; 4) A Building Inspection Report was not provided, assuming no adverse conditions or defects that would adversely affect value.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 70,
+    "answer": "The appraisal report explicitly states that there are no hypothetical conditions. This is clearly indicated in the Hypothetical Conditions section which states \"None\" [Page 3][Page 14].",
+    "transcription": "None",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 71,
+    "answer": "N/A. This is an appraisal report, not a review report, so this question about review report extraordinary assumptions or hypothetical conditions is not applicable.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 72,
+    "answer": "Yes. The appraisal identifies several negative property risk factors [Page 26][Page 29]: The retail spaces are described as dated, generally narrow and deep, with minimal build-out which has slowed interest. There is functional obsolescence in retail spaces requiring significant capital that is not feasible considering lease rates and vacancy. Two of four vacant apartment units require $5,000-$10,000 in deferred maintenance to make rentable. The vacant retail spaces need updating to make marketable, requiring TI's totaling $93,866.",
+    "transcription": "Yes - functional obsolescence and deferred maintenance issues",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 73,
+    "answer": "Yes. The appraisal identifies significant negative market risk factors [Page 10][Page 47][Page 48]: The subject has been on the market for over 2 years with multiple price reductions from $8,900,000 to current list price of $6,450,000. The downtown market has been affected by civil unrest and increasing homeless population, negatively impacting investor sentiment and tenant demand, particularly for retail space. Retail vacancy is evident along W. Burnside with several long-term vacancies surrounding the subject. The retail component contains two long-term vacancies totaling 4,082 square feet, representing 62.35% of the retail area.",
+    "transcription": "Yes - extended marketing, civil unrest impact, high retail vacancy",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 74,
+    "answer": "SWOT Analysis for Cambridge-Trinity Mixed-Use Buildings: STRENGTHS: Established mixed-use property with 49 apartment units and 4 retail suites in urban Portland location. Good access and exposure on major arterial. Some units recently updated with market-level rents. WEAKNESSES: Functional obsolescence in retail spaces which are narrow, deep, and dated. Significant deferred maintenance ($15,000 apartment repairs, $93,866 retail TI's needed). Extended vacancy in 62% of retail space. OPPORTUNITIES: Proximity to Providence Park, transit connectivity, potential for rent increases on turnover. Urban location supports residential demand recovery. THREATS: Civil unrest and homeless population impacts. Downtown retail market distress with business closures. Extended marketing period (2+ years) with 27% price reduction indicates market resistance [Page 10][Page 26][Page 29][Page 47][Page 48].",
+    "transcription": "Mixed strengths/weaknesses with significant market challenges",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 76,
+    "answer": "Yes. The appraisal mentions several deferred maintenance issues [Page 29]: One vacant apartment requires an estimated $5,000 to make rentable, another hasn't been occupied for some time with an estimated cost of $10,000 to make rentable, for a total of $15,000 for the apartments. The two vacant retail spaces will require updating to make marketable, along with tenant improvements totaling $93,866 ($25/SF). No specific structural concerns are mentioned beyond general deferred maintenance issues.",
+    "transcription": "Yes - $15,000 apartment repairs, $93,866 retail improvements needed",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 86,
+    "answer": "Yes. The appraisal provides comprehensive market analysis with facts and statistics related to the subject property [Page 17-21]. It includes regional population data for Oregon, Multnomah County, and Portland, unemployment statistics, and median household income data. The analysis discusses how these factors impact the subject property's market position and valuation, providing context for the specific assignment.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 87,
+    "answer": "Yes. The subject location is adequately analyzed [Page 19-21]. The report discusses the property's location in Uptown Portland within the Northwest District, its proximity to the CBD and Pearl District, access via W. Burnside Street and I-405 Freeway, and development patterns in the area. It addresses the challenges from civil unrest and homelessness impacts, as well as the transition zone characteristics between downtown intensity and residential neighborhoods.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 88,
+    "answer": "Yes. The appraisal identifies the subject's market and submarket with detailed analysis [Page 46-48]. It provides historical market trends including population growth patterns, discusses supply and demand factors affecting both apartment and retail submarkets. The report includes CoStar survey data showing apartment vacancy rates, absorption, construction activity, and retail market statistics with appropriate detail for the mixed-use property type.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 89,
+    "answer": "Yes. The subject site section is complete and relevant [Page 22-25]. It includes site size (0.23 acres/10,000 SF), zoning (CXd Central Commercial with design overlay), utilities availability, tax assessments from Multnomah County, topography (level), access/exposure characteristics, flood plain designation (Zone X), and site coverage (95%). The information addresses all key site conditions and compliance factors.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 90,
+    "answer": "Yes. Improvements are adequately described [Page 26-29] with detailed unit mix tables, comprehensive photographs [Pages 31-43], and thorough discussion of building components. The report addresses deferred maintenance specifically ($15,000 for apartments, $93,866 for retail improvements) and functional utility issues, particularly noting the retail spaces are narrow, deep, and dated with minimal build-out affecting marketability.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 91,
+    "answer": "The year of construction is 1908-1910 [Page 2][Page 26]. The remaining economic life is 30 years [Page 29]. The economic life estimates show actual age of 116-118 years, effective age of 20 years, total economic life of 50 years, resulting in 30 years of remaining economic life.",
+    "transcription": "YOC: 1908-1910, REL: 30 years",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 95,
+    "answer": "Yes. The appraisal report provides detailed highest and best use analysis [Page 45-48]. It addresses both \"as vacant\" and \"as improved\" scenarios with adequate support. For \"as vacant,\" it concludes multifamily use based on slower demand for commercial uses. For \"as improved,\" it supports the current mixed-use development, providing market analysis for both apartment and retail components with supporting data and reasoning.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 97,
+    "answer": "N/A. The appraisal does not develop a separate site valuation or Cost Approach analysis [Page 49]. The report states the Cost Approach was not presented due to subjectivity and difficulty in determining accrued depreciation for older buildings, and that a typical purchaser would not consider this approach as reliable.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 98,
+    "answer": "The Cost Approach was not developed in this appraisal [Page 49]. The exclusion is adequately explained: the appraisers state it was not presented due to the subjectivity and difficulty in determining accrued depreciation for older buildings (built 1908-1910), and that a typical purchaser of the subject property would not consider this approach as a reliable indicator. This exclusion is reasonable given the age of the improvements and the availability of more reliable income and sales comparison approaches for this investment property type.",
+    "transcription": "Not developed - adequately explained exclusion for older buildings",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 99,
+    "answer": "Yes. The Sales Comparison Approach is adequately supported [Page 74-80]. The report analyzes four comparable mixed-use sales with detailed adjustment analysis for economic location, floor area, condition/quality/utility, access/exposure. Comparable sales range from $134.01/SF to $248.25/SF, with adjustments leading to a concluded value of $135.00/SF or $4,890,000. The analysis includes property descriptions, sale dates, and market condition considerations.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 100,
+    "answer": "Yes. The Income Approach is thoroughly developed and adequately supported [Page 50-73]. It includes detailed rent analysis for both retail and apartment components, comparable lease analysis, operating expense analysis, and capitalization rate analysis. The approach concludes a value of $4,930,000 using a 7.75% cap rate applied to NOI of $382,446. The analysis includes market rent studies, vacancy assumptions, and comprehensive income and expense projections.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 101,
+    "answer": "Yes. The reconciliation section discusses the strengths and weaknesses of each approach [Page 81]. The Income Capitalization Approach ($4,930,000) and Sales Comparison Approach ($4,890,000) are given equal weight. The report notes both approaches generated similar values and that investors place moderate weight on sales comparison for income-producing properties of this type and size. The final prospective value conclusion of $4,910,000 represents a reasonable reconciliation.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 136,
+    "answer": "N/A. The appraisal report does not include any business value analysis or EBITDA multiplier determination. This is a real estate appraisal for a mixed-use rental property, not a business valuation, so EBITDA multipliers are not relevant to the analysis.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 137,
+    "answer": "Yes. The analysis, opinions, and conclusions are communicated in a non-misleading manner throughout the report. The appraisers clearly distinguish between prospective stabilized value and as-is value, explain assumptions and limitations, provide detailed supporting analysis, and present conclusions with appropriate caveats and extraordinary assumptions [Page 2][Page 3][Page 81-84].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 138,
+    "answer": "Yes. The report contains sufficient information to enable intended users to understand it properly. It includes comprehensive sections on property description, market analysis, highest and best use, valuation approaches, assumptions, and limiting conditions with detailed explanations and supporting data throughout [Page 2-85].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 139,
+    "answer": "Yes. The reporting option is prominently stated as an Appraisal Report compliant with USPAP Standard 2 [Page 2][Page 96].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 140,
+    "answer": "Yes. The client is clearly identified as Oregon State Credit Union - Corvallis [Page 1][Page 2][Page 7].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 141,
+    "answer": "Yes. The intended users are stated as Oregon State Credit Union - Corvallis, which is the client and intended user of the appraisal [Page 7].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 142,
+    "answer": "Yes. The intended use is clearly stated as to assist the client and intended users with determining the market value of the subject property [Page 7].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 143,
+    "answer": "Yes. The real estate appraised is sufficiently identified as Cambridge-Trinity Mixed-Use Buildings located at 1951-1967 W Burnside Street & 11 NW Trinity Place, Portland, Oregon 97209, with detailed legal descriptions, tax lot numbers, and property characteristics [Page 1][Page 4][Page 7][Page 22].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 144,
+    "answer": "Yes. The type of value is stated as Market Value with the appropriate FIRREA definition provided in compliance with OCC, FDIC, and USPAP requirements [Page 8]. Both Prospective Leased Fee Value at Stabilized Occupancy and As-Is Leased Fee Value are clearly defined [Page 3][Page 7].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 145,
+    "answer": "Yes. The scope of work is appropriately described [Page 10-11]. It includes definition of issues, property inspection, site and improvement analyses, highest and best use analysis, market data selection and analysis, use of valuation approaches, and reconciliation. The scope is appropriate for developing both prospective stabilized and as-is market values for this mixed-use property.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 146,
+    "answer": "Yes. The extent of appraisal assistance is summarized in the certification section [Page 85], which states that no one not named in the appraisal report provided significant real property appraisal assistance to the signatories. W. Paul Jackson MAI is noted as reviewing the report and concurring with the analysis and conclusions [Page 11].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 147,
+    "answer": "Yes. The quality and quantity of data are summarized, relevant, and appropriately analyzed throughout the report. The appraisal includes detailed comparable sales analysis, rent comparables, market data from multiple sources, financial information, and extensive primary and secondary research documented in the scope of work section [Page 11-12].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 148,
+    "answer": "Yes. The opinion of value was developed using appropriate appraisal methods. The Income Capitalization Approach and Sales Comparison Approach were both properly applied with detailed analysis. The Cost Approach exclusion was adequately explained and reasonable for this older mixed-use property [Page 49][Page 50-80].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 149,
+    "answer": "Yes. There is sufficient information and analysis to enable the client and intended users to understand the rationale for the opinions and conclusions. The report provides detailed explanations of methodology, market conditions, property characteristics, valuation approaches, and reconciliation reasoning throughout [Page 2-85].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 150,
+    "answer": "Yes. The report includes a summary of subject sales analysis [Page 10]. It states that based on county records, Cambridge-Trinity, LLC has owned the property since 2005 when purchased for $4,700,000, and there are no other known transfers for the past 3 years. The current listing history is also analyzed, showing the property has been marketed for over 2 years with price reductions.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 151,
+    "answer": "Yes. The report includes analysis of the current listing [Page 10]. The overall portfolio is listed for $6,450,000, with an allocated asking price of approximately $4,380,000 for the subject property. The listing has been on market for over 2 years with multiple price reductions from an initial $8,900,000, receiving offers ranging from $5,000,000 to $6,000,000.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 152,
+    "answer": "Yes. The report includes a statement reflecting the existing use as mixed-use (multifamily and commercial) and provides detailed highest and best use analysis [Page 45-48]. It concludes the existing use represents the highest and best use as improved, with comprehensive market analysis supporting both apartment and retail components.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 153,
+    "answer": "Yes. The report includes proper certification in accordance with Standard 2-3 [Page 85]. It specifically addresses that William E. Leavens made a personal inspection of the property and W. Paul Jackson did not inspect the subject property. The certification confirms no appraisal services were performed on the subject within the three-year period preceding the assignment.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 154,
+    "answer": "Yes. The report includes a reasonable statement and discussion of exposure time [Page 13]. It states that marketing and exposure periods are deemed equivalent, with discussions indicating stable demand for well-located, functional properties. The forecast marketing and exposure period is 365 days or less for mixed-use developments, with analysis of comparable marketing periods ranging from 137 days to 2 years.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 155,
+    "answer": "Yes. Based on the review of the preceding 18 USPAP-related questions, this appraisal report meets the minimum USPAP requirements. All applicable standards are properly addressed with appropriate identification, analysis, and conclusions. The report demonstrates compliance with USPAP Standard 2 requirements for appraisal reporting with adequate scope of work, proper certifications, and sufficient information for intended users to understand the analysis and conclusions.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 156,
+    "answer": "N/A. The subject property is an investment property without owner-occupied space, so this FIRREA requirement regarding owner-occupied space being valued \"as if available for sale or lease\" is not applicable to this assignment.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 157,
+    "answer": "Yes. The report includes statements indicating conformance with USPAP and FIRREA [Page 2][Page 8]. It specifically states compliance with the Uniform Standards of Professional Appraisal Practice of the Appraisal Foundation and Title XI of the Federal Financial Institutional Reform Act (FIRREA) of 1989.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 158,
+    "answer": "Yes. A Market Value \"As Is\" is included as the As-Is Leased Fee Value of $3,920,000 as of January 22, 2026, representing the value of the property in its current physical condition, use, and zoning [Page 3][Page 6][Page 84].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 159,
+    "answer": "Yes. The Prospective Market Value opinion of $4,910,000 as of February 1, 2028 is based on current and reasonably expected market conditions at stabilized occupancy [Page 3][Page 6][Page 81].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 160,
+    "answer": "Yes. The report states that no allocation is made for FF&E [Page 6][Page 7]. This is adequately supported with explanation that kitchen appliances and fixtures are considered to be at the end of their economic lives with little to no contributory value, making separate allocations unnecessary.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 161,
+    "answer": "Yes. The report analyzes and reports appropriate deductions for the current condition [Page 82-84]. It deducts $990,000 from the prospective stabilized value for income-absorption loss, deferred maintenance, and profit to arrive at the as-is value. This includes detailed analysis of apartment absorption costs ($40,000) and retail absorption costs ($950,000) with supporting calculations.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 162,
+    "answer": "Yes. Based on the review of the preceding 6 FIRREA-related questions, this appraisal report meets FIRREA regulatory requirements. All applicable items are addressed appropriately, including Market Value \"As Is,\" prospective value opinions, FF&E allocations, and appropriate deductions for current property conditions. Non-applicable items are properly identified.",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 163,
+    "answer": "The value conclusions in the report are: Prospective Leased Fee Value at Stabilized Occupancy as of February 1, 2028: $4,910,000; Less Income-Absorption Loss/Deferred Maintenance/Profit: ($990,000); As-Is Leased Fee Value as of January 22, 2026: $3,920,000 [Page 3][Page 6][Page 81][Page 84].",
+    "transcription": "Prospective: $4,910,000; As-Is: $3,920,000",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 164,
+    "answer": "The Sales Comparison Approach analyzes four comparable mixed-use sales ranging from $134.01/SF to $248.25/SF, with detailed adjustments for location, size, condition, and other factors, concluding a value of $4,890,000 [Page 74-80]. As an expert reviewer, this approach is adequately supported with appropriate comparable selection, reasonable adjustment methodology, and credible conclusions. The comparables are all mixed-use properties of similar vintage and character, with transparent adjustment analysis leading to a narrow adjusted range of $131.99/SF to $146.72/SF.",
+    "transcription": "Adequately supported with credible comparable analysis",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 165,
+    "answer": "The Income Approach develops detailed rent analysis for retail ($23.00/SF NNN) and apartments (average $1,112/unit/month), with comprehensive operating expense analysis ($417,742) and a 7.75% capitalization rate, concluding $4,930,000 [Page 50-73]. As an expert reviewer, this approach is well-supported with extensive comparable rent analysis, reasonable vacancy assumptions (5% apartments, 7.5% retail), and market-extracted cap rates. The rent conclusions are supported by detailed comparable analysis and the expense estimates appear reasonable for the property type and age.",
+    "transcription": "Well-supported with comprehensive rent and expense analysis",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 166,
+    "answer": "The Cost Approach was not developed in this appraisal [Page 49]. The appraisers explained the exclusion was due to the subjectivity and difficulty in determining accrued depreciation for older buildings (1908-1910) and that a typical purchaser would not consider this approach reliable. As an expert reviewer, this omission is reasonable given the age of the improvements (116-118 years), the investment nature of the property, and the availability of more reliable income and sales approaches for this property type.",
+    "transcription": "Not developed - reasonable exclusion for aged investment property",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 167,
+    "answer": "The reconciliation gives equal weight to the Income Approach ($4,930,000) and Sales Comparison Approach ($4,890,000), concluding a final prospective value of $4,910,000 [Page 81]. The appraisers note both approaches generated similar values and that investors place moderate weight on sales comparison for income-producing properties of this type. As an expert reviewer, the equal weighting is credible and consistent with standard practice for investment properties where both approaches are well-supported and produce similar indications.",
+    "transcription": "Equal weighting credible - approaches well-supported with similar results",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 168,
+    "answer": "The overall credibility of the appraisal is strong. The report demonstrates comprehensive analysis across all approaches, detailed market research, appropriate methodology for the property type, and transparent assumptions. Supporting evidence includes extensive comparable analysis, detailed financial projections, proper certifications, and adequate disclosure of extraordinary assumptions [Page 2-85]. The absorption analysis and as-is adjustments are well-reasoned. The appraisers demonstrate market knowledge and apply standard valuation practices appropriately for this mixed-use investment property.",
+    "transcription": "Strong overall credibility with comprehensive analysis",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 169,
+    "answer": "No indications found. The appraisal appears complete and well-supported without obvious revision needs. The analysis is comprehensive, assumptions are disclosed, and methodology is appropriate for the property type. Evidence scan: Reviewed transmittal letter, executive summary, valuation approaches, assumptions and limiting conditions, certifications, and reconciliation sections [Page 2-85].",
+    "transcription": "No indications found",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 170,
+    "answer": "No indications found. No formal review checklist is present in the provided context. The appraisal appears to meet standard requirements based on the comprehensive analysis and proper certifications provided. Evidence scan: Reviewed entire document for checklist sections, quality control pages, and reviewer comments [Page 1-139].",
+    "transcription": "No indications found",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 171,
+    "answer": "No indications found. No dispute, appeal, or rebuttal requests are documented in the materials provided. The appraisal appears to be an original assignment without subsequent challenges. Evidence scan: Reviewed transmittal letter, addenda, correspondence sections, and revision notes throughout the document [Page 1-139].",
+    "transcription": "No indications found",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 172,
+    "answer": "No indications found. The appraisal appears to be an original report without documented revisions. No reissued versions, addendum updates, or corrected exhibits are indicated in the materials provided. Evidence scan: Reviewed title page, transmittal letter, certification section, and addenda for revision indicators [Page 1-139].",
+    "transcription": "No indications found",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 173,
+    "answer": "Yes. The weighting of the final reconciliation is reasonable, giving equal weight to both the Income Capitalization Approach and Sales Comparison Approach. This is appropriate given the similar value conclusions ($4,930,000 vs $4,890,000), the quality and quantity of data supporting both approaches, and the investment nature of the property where both approaches are relevant and reliable [Page 81].",
+    "transcription": "Yes",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 262,
+    "answer": "No. The appraisal does not include a Discounted Cash Flow analysis [Page 49-73]. For this mixed-use investment property with established income streams and market data, the direct capitalization method used in the Income Approach is appropriate and sufficient. A DCF analysis is not necessary given the stabilized nature of the property and the availability of market-extracted capitalization rates. The omission is reasonable and consistent with standard practice for this property type.",
+    "transcription": "No DCF - appropriately omitted for this property type",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 263,
+    "answer": "The appraisal demonstrates strong consistency in terminology and logic throughout. Property descriptions are consistent between sections, unit counts and square footages match across exhibits, and valuation methodology follows logical progression. No significant non-mathematical inconsistencies were identified in the analysis, conclusions, or supporting documentation. The report maintains professional terminology and clear logical flow from market analysis through valuation approaches to final conclusions. Overall traffic-light rating: Green.",
+    "transcription": "Strong consistency - Green rating",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 264,
+    "answer": "The mathematical calculations appear accurate throughout the appraisal. Income and expense projections are properly calculated, adjustment grids in the sales comparison approach show correct mathematics, and the reconciliation calculations are accurate. Unit mix calculations, per-square-foot calculations, and absorption cost analysis all demonstrate proper mathematical treatment. No significant mathematical errors were identified in the review of the appraisal calculations.",
+    "transcription": "No significant mathematical issues identified",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 265,
+    "answer": "N/A. The appraisal does not specifically calculate or discuss a Gross Income Multiplier metric in the analysis.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 266,
+    "answer": "N/A. The appraisal does not specifically calculate or discuss a Gross Rent Multiplier metric in the analysis.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 267,
+    "answer": "N/A. The appraisal does not specifically calculate or discuss an Effective Gross Income Multiplier metric in the analysis.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 268,
+    "answer": "The NOI Multiplier (Price/NOI) can be calculated from the Income Approach as $4,930,000 ÷ $382,446 = 12.89. This represents the inverse of the capitalization rate (1 ÷ 0.0775 = 12.90). The multiplier is reasonable and consistent with the market-extracted cap rate of 7.75%, indicating the property trades at approximately 12.9 times its net operating income, which aligns with comparable investment properties in the market [Page 73].",
+    "transcription": "NOI Multiplier: 12.89 - reasonable and market-supported",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 269,
+    "answer": "The capitalization rate of 7.75% is well-supported through comparable sales analysis [Page 70-72]. Four comparable sales with cap rates ranging from 5.19% to 7.60% were adjusted for income stability, building class, and development size, resulting in an adjusted range of 7.27% to 7.81%. The concluded 7.75% rate falls within the upper-middle portion of this range, which is reasonable for the subject's characteristics including moderate rent levels and mixed-use nature.",
+    "transcription": "Cap Rate: 7.75% - well-supported by comparable analysis",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 270,
+    "answer": "N/A. The appraisal does not calculate or discuss a Gross Profit Margin metric, as this is primarily a real estate rental income analysis rather than a business profit analysis.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 271,
+    "answer": "N/A. The appraisal does not specifically calculate or discuss a Price to Revenue metric in the analysis.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 272,
+    "answer": "N/A. EBITDA is not applicable to this real estate appraisal as it is a business valuation metric. This appraisal focuses on real estate market value using NOI rather than business earnings measures.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 273,
+    "answer": "N/A. P/EBITDA is not applicable to this real estate appraisal as it is a business valuation metric rather than a real estate valuation measure.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 274,
+    "answer": "N/A. EBITDA Margin is not applicable to this real estate appraisal as it is a business profitability metric rather than a real estate investment measure.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 275,
+    "answer": "The NOI Margin can be calculated as NOI ÷ Effective Gross Income = $382,446 ÷ $800,188 = 47.8% [Page 73]. This represents the percentage of gross income that flows to net operating income after operating expenses. The 47.8% NOI margin is reasonable for a mixed-use property of this age and type, indicating efficient operations with typical expense ratios for the market.",
+    "transcription": "NOI Margin: 47.8% - reasonable for property type and age",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 276,
+    "answer": "N/A. Cash-on-Cash Return is not calculated in this appraisal as it requires specific financing assumptions and equity investment amounts that are not part of the market value analysis.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 277,
+    "answer": "N/A. Yield on Cost is not calculated in this appraisal as it requires development cost basis information that is not relevant to this market value analysis of an existing property.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 278,
+    "answer": "N/A. Debt Service Coverage Ratio is not calculated in this appraisal as it requires specific financing terms and debt service amounts that are not part of the market value analysis.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 279,
+    "answer": "N/A. Debt Yield is not calculated in this appraisal as it requires specific financing amounts and terms that are not part of the market value analysis.",
+    "transcription": "N/A",
+    "traffic_light_rating": "Green"
+  },
+  {
+    "question_id": 280,
+    "answer": "Based on review of the appraisal report: SBA Use Indicated: No indication found; SBA as Intended User: No, intended user is Oregon State Credit Union; Remaining Economic Life Present & Value: Yes, 30 years remaining economic life stated [Page 29]; Remaining Economic Life vs 25 Years: Above 25 years at 30 years; Approaches to Value: Income Approach and Sales Comparison Approach developed, Cost Approach excluded with adequate explanation [Page 49][Page 74][Page 81].",
+    "transcription": "No SBA use, REL 30 years, Income and Sales approaches used",
+    "traffic_light_rating": "Green"
+  }
+]

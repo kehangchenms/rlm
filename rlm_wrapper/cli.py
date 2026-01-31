@@ -118,7 +118,9 @@ Examples:
         '--use-rlm',
         action='store_true',
         default=False,
-        help='Use RLM for processing (requires rlm package)'
+        help='Use TRUE RLM approach: document stored locally, LLM generates code to search it. '
+             'This SOLVES rate limit issues because the document is NEVER sent to the API! '
+             '(requires rlm package: pip install -e .)'
     )
     parser.add_argument(
         '--dry-run',
@@ -129,6 +131,30 @@ Examples:
         '--verbose', '-v',
         action='store_true',
         help='Enable verbose output'
+    )
+
+    # Rate limiting options
+    parser.add_argument(
+        '--rate-limit', '--tokens-per-minute',
+        type=int,
+        default=30000,
+        dest='tokens_per_minute',
+        help='Rate limit in tokens per minute (default: 30000)'
+    )
+    parser.add_argument(
+        '--no-prompt-caching',
+        action='store_true',
+        help='Disable Anthropic prompt caching (caching enabled by default)'
+    )
+    parser.add_argument(
+        '--batch-all',
+        action='store_true',
+        help='Send ALL questions in a single API request (recommended for low rate limits)'
+    )
+    parser.add_argument(
+        '--incremental-save',
+        action='store_true',
+        help='Save results incrementally after each category (recommended for long runs)'
     )
 
     # Utility options
@@ -198,7 +224,7 @@ def show_categories():
     print("=" * 60)
 
 
-def do_dry_run(document_path: str, questions_path: str):
+def do_dry_run(document_path: str, questions_path: str, tokens_per_minute: int = 30000):
     """Perform a dry run showing what would be processed."""
     print("\n" + "=" * 60)
     print("DRY RUN - No LLM calls will be made")
@@ -237,14 +263,17 @@ def do_dry_run(document_path: str, questions_path: str):
     print("-" * 40)
 
     total_prompt_tokens = 0
+    category_tokens = []
     for cat_id, cat_questions in sorted(groups.items()):
         cat_name = CATEGORY_NAMES.get(cat_id, f"Category {cat_id}")
         prompt = builder.build_prompt(cat_id)
         prompt_tokens = len(prompt) // 4
+        total_cat_tokens = prompt_tokens + doc_tokens
 
         print(f"\n  {cat_id}. {cat_name}")
         print(f"     Questions: {len(cat_questions)}")
         print(f"     Prompt tokens: ~{prompt_tokens:,}")
+        print(f"     Total (with doc): ~{total_cat_tokens:,}")
 
         for q in cat_questions[:3]:  # Show first 3 questions
             print(f"       - Q{q.id}: {q.text[:50]}...")
@@ -252,11 +281,28 @@ def do_dry_run(document_path: str, questions_path: str):
             print(f"       ... and {len(cat_questions) - 3} more")
 
         total_prompt_tokens += prompt_tokens
+        category_tokens.append(total_cat_tokens)
+
+    # Calculate estimated processing time
+    total_input_tokens = total_prompt_tokens + doc_tokens * len(groups)
+
+    # Without caching: each request uses full tokens
+    minutes_without_cache = total_input_tokens / tokens_per_minute
+
+    # With caching: only first request uses full doc tokens, rest use ~500 cache tokens
+    cached_tokens = category_tokens[0] if category_tokens else 0
+    for t in category_tokens[1:]:
+        cached_tokens += (t - doc_tokens + 500)  # ~500 tokens for cache read overhead
+    minutes_with_cache = cached_tokens / tokens_per_minute
 
     print("\n" + "-" * 40)
     print(f"Total prompt tokens (all categories): ~{total_prompt_tokens:,}")
     print(f"Document tokens: ~{doc_tokens:,}")
-    print(f"Estimated total input: ~{total_prompt_tokens + doc_tokens * len(groups):,} tokens")
+    print(f"Estimated total input: ~{total_input_tokens:,} tokens")
+    print(f"\nRate limit: {tokens_per_minute:,} tokens/minute")
+    print(f"\nEstimated processing time:")
+    print(f"  WITHOUT prompt caching: ~{minutes_without_cache:.1f} minutes")
+    print(f"  WITH prompt caching:    ~{minutes_with_cache:.1f} minutes (recommended)")
     print("=" * 60)
 
 
@@ -272,7 +318,7 @@ def process_files(args):
 
     # Dry run mode
     if args.dry_run:
-        do_dry_run(args.document, args.questions)
+        do_dry_run(args.document, args.questions, args.tokens_per_minute)
         return
 
     # Load document
@@ -312,11 +358,15 @@ def process_files(args):
     model = args.model or get_default_model(args.backend)
 
     # Create processor
+    use_prompt_caching = not args.no_prompt_caching
     print(f"\nInitializing processor...")
     print(f"  Backend: {args.backend}")
     print(f"  Model: {model}")
     print(f"  Max tokens: {args.max_tokens}")
     print(f"  Use RLM: {args.use_rlm}")
+    print(f"  Rate limit: {args.tokens_per_minute:,} tokens/minute")
+    print(f"  Prompt caching: {'enabled' if use_prompt_caching else 'disabled'}")
+    print(f"  Batch all: {args.batch_all} {'(ALL questions in 1 request)' if args.batch_all else ''}")
 
     try:
         processor = AppraisalProcessor(
@@ -326,15 +376,30 @@ def process_files(args):
             api_key=args.api_key,
             verbose=args.verbose,
             use_rlm=args.use_rlm,
+            tokens_per_minute=args.tokens_per_minute,
+            use_prompt_caching=use_prompt_caching,
         )
     except Exception as e:
         print(f"ERROR initializing processor: {e}")
         sys.exit(1)
 
     # Process
-    print(f"\nProcessing {len(questions)} questions...")
+    if args.batch_all:
+        print(f"\nProcessing ALL {len(questions)} questions in a single batch request...")
+    else:
+        print(f"\nProcessing {len(questions)} questions by category...")
+
+    incremental_path = args.output if args.incremental_save else None
+    if incremental_path:
+        print(f"  Incremental saving enabled: {incremental_path}")
+
     try:
-        result = processor.process(document, questions)
+        result = processor.process(
+            document,
+            questions,
+            batch_all=args.batch_all,
+            incremental_save_path=incremental_path
+        )
     except Exception as e:
         print(f"ERROR during processing: {e}")
         sys.exit(1)

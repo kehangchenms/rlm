@@ -24,29 +24,34 @@ from .prompts import (
 from .prompts.section_g_expanded import get_section_g_for_questions
 
 
-# Category ID to name mapping
+# Category ID to name mapping (from database review-manager-poc)
 CATEGORY_NAMES = {
-    3: "Appraisal Information",
-    5: "Value Conclusion(s) in the Report Under Review",
-    6: "Appraisal Report Extraordinary Assumptions and/or Hypothetical Conditions",
-    7: "Review Report Extraordinary Assumptions and/or Hypothetical Conditions",
-    8: "Risk Assessment",
-    9: "Reviewer Findings, Opinions and Conclusions",
-    10: "Regional, Neighborhood, and Market Analysis",
-    11: "Subject Site and Improvements",
-    12: "Highest and Best Use",
-    13: "Site Valuation",
-    14: "Cost Approach",
-    15: "Sales Approach",
-    16: "Income Approach",
-    17: "Reconciliation",
-    18: "USPAP Compliance",
-    19: "FIRREA Compliance",
-    20: "Expanded Appraisal Insights",
+    1: "1. Transaction Details",
+    2: "2. Property Information",
+    3: "3. Appraisal Information",
+    4: "4. Review Information",
+    11: "5. Value Conclusion(s) in the Report Under Review (2-2(a)(v), 2-2(a)(vi), 2-2(a)(vii))",
+    12: "6. Appraisal Report Extraordinary Assumptions and/or Hypothetical Conditions (2-2(a)(xiii))",
+    13: "8. Risk Assessment",
+    14: "9. Reviewer Findings, Opinions and Conclusions – Appraisal Report Compliance with (2-2(a)(x))",
+    15: "10. Regional, Neighborhood, and Market Analysis",
+    16: "11. Subject Site and Improvements",
+    17: "12. Highest and Best Use",
+    18: "13. Site Valuation",
+    19: "18. USPAP Compliance",
+    20: "19. FIRREA Compliance",
+    21: "20. Expanded Appraisal Insights",
+    22: "7. Review Report Extraordinary Assumptions and/or Hypothetical Conditions (4-2(f))",
+    23: "14. Cost Approach",
+    24: "15. Sales Approach",
+    25: "16. Income Approach",
+    26: "17. Reconciliation",
+    27: "5. Value Conclusions",
 }
 
 # Categories that use only standard approach (Section A)
-STANDARD_ONLY_CATEGORIES = {3, 6, 7, 10, 11, 12, 14, 15, 18, 19}
+# Categories NOT in this set have specialized sections
+STANDARD_ONLY_CATEGORIES = {1, 2, 3, 4, 12, 15, 16, 17, 19, 20, 22, 23, 24}
 
 
 class PromptBuilder:
@@ -90,37 +95,53 @@ class PromptBuilder:
         Get the category-specific section for a given category.
 
         Args:
-            category_id: The category ID (3, 5, 6, ..., 20)
+            category_id: The category ID from database (1, 2, 3, ..., 27)
             questions: Optional list of questions for context-aware selection
 
         Returns:
             Category-specific prompt section, or empty string if none needed
+
+        Category ID to Section Mapping (from review-manager-poc database):
+            11, 27: Value Conclusions -> Section B
+            13: Risk Assessment -> Section F (SWOT)
+            14: Reviewer Findings -> Section E (Data Extraction)
+            18: Site Valuation -> Section D
+            25: Income Approach -> Section H (DCF) if applicable
+            26: Reconciliation -> Section C
+            21: Expanded Appraisal Insights -> Section G
         """
         if category_id in STANDARD_ONLY_CATEGORIES:
             return ""
 
-        if category_id == 5:
+        # Category 11 & 27: Value Conclusions
+        if category_id in (11, 27):
             return SECTION_B_VALUE_CONCLUSIONS
 
-        elif category_id == 8:
+        # Category 13: Risk Assessment
+        elif category_id == 13:
             return SECTION_F_RISK_ASSESSMENT
 
-        elif category_id == 9:
+        # Category 14: Reviewer Findings
+        elif category_id == 14:
             return SECTION_E_REVIEWER_FINDINGS
 
-        elif category_id == 13:
+        # Category 18: Site Valuation
+        elif category_id == 18:
             return SECTION_D_SITE_VALUATION
 
-        elif category_id == 16:
+        # Category 25: Income Approach (may include DCF)
+        elif category_id == 25:
             # Check if questions involve DCF
             if questions and self._has_dcf_questions(questions):
                 return SECTION_H_DCF_ANALYSIS
             return ""
 
-        elif category_id == 17:
+        # Category 26: Reconciliation
+        elif category_id == 26:
             return SECTION_C_RECONCILIATION
 
-        elif category_id == 20:
+        # Category 21: Expanded Appraisal Insights
+        elif category_id == 21:
             # For expanded insights, can optionally filter to relevant Q1-Q21
             if questions:
                 q_numbers = self._extract_group20_question_numbers(questions)
